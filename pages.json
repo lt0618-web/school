@@ -1,0 +1,94 @@
+{
+	"leftWindow": {
+
+	},
+	"topWindow": {
+
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path":"pages/store/index",
+		"style":{
+			"navigationBarTextStyle":"white",
+			"navigationStyle":"custom"
+		}
+	},{
+		"path":"pages/store/list",
+		"style":{
+			"navigationBarTextStyle":"white",
+			"navigationStyle":"custom"
+		}
+	},{
+		"path":"pages/store/product",
+		"style":{
+			"navigationBarTextStyle":"white",
+			"navigationStyle":"custom"
+		}
+	} ,{
+		"path":"pages/store/reciewList",
+		"style":{
+			"navigationBarTextStyle":"white",
+			"navigationStyle":"custom"
+		}
+
+    },{
+		"path" : "pages/store/address",
+		"style":{
+			"navigationBarTextStyle":"white",
+			"navigationStyle":"custom"
+		}
+
+		},{
+		"path" : "pages/store/addSite",
+		"style":{
+			"navigationBarTextStyle":"white",
+			"navigationStyle":"custom"
+		}
+
+	  },{
+		"path" : "pages/store/orderDetails",
+		"style":{
+			"navigationBarTextStyle":"white",
+			"navigationStyle":"custom"
+		}
+
+	  },{
+		"path" : "pages/store/orderDetails2",
+		"style":{
+			"navigationBarTextStyle":"white",
+			"navigationStyle":"custom"
+		}
+
+	  }
+
+    ],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTitleText": "uniapp",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "rgba(255,255,255,0)",
+		"backgroundColorTop": "rgba(255,255,255,0)",
+		"backgroundColorBottom": "rgba(255,255,255,0)",
+		"mp-360": {
+			"navigationStyle": "custom"
+		},
+		"h5": {
+			"maxWidth": 1190,
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "rgba(255,255,255,0)"
+		}
+
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+
+			}]
+		}
+}
